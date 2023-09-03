@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Exam</title>
+  </head>
+  <body>
+    <section id="loading" class="">
+      <i
+        class="fa-solid fa-spinner fa-4x text-white fa-spin d-flex justify-content-center align-items-center mt-5 pt-5"
+      ></i>
+    </section>
+    <section id="sideBar" class="d-flex">
+      <div
+        id="navBar"
+        class="sideBar-inner d-flex flex-column justify-content-between"
+      >
+        <ul class="list-unstyled list links">
+          <li id="nav-search" class="py-2">Search</li>
+          <li id="nav-Categories" class="py-2">Categories</li>
+          <li id="nav-Area" class="py-2">Area</li>
+          <li id="nav-Ingredients" class="py-2">Ingredients</li>
+          <li id="nav-Contact" class="py-2">Contact Us</li>
+        </ul>
+
+        <div class="nav-footer">
+          <div class="icon text-white">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-solid fa-globe"></i>
+          </div>
+          <div class="footer-text">
+            <p>Copyright Â© 2019 All Rights <br />Reserved.</p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="nav-header d-flex flex-column justify-content-around text-center"
+      >
+        <img src="./img/logo.png" alt="logo" />
+        <i
+          id="icon"
+          class="fa-solid open close icon fa-2x fa-x text-black pt-5"
+        ></i>
+        <i id="icon2" class="fa-solid fa-bars fs-2"></i>
+
+        <div class="text-center d-flex flex-column">
+          <i class="fa-solid fa-globe pb-2"></i>
+          <i class="fa-solid fa-share-nodes"></i>
+        </div>
+      </div>
+    </section>
+    <div id="home" class="container py-3">
+      <div id="rowData" class="row"></div>
+    </div>
+    <div id="home-inner" class="container">
+      <div id="data3" class="row py-5"></div>
+    </div>
+    <div id="search" class="container search text-center">
+      <div class="row py-5">
+        <div class="col-md-6">
+          <input
+            id="search-By-Name"
+            class="w-100 bg-transparent p-2 mt-5 form-control text-white"
+            type="text"
+            placeholder="Search By Name"
+          />
+        </div>
+        <div class="col-md-6">
+          <input
+            id="search-By-fletter"
+            class="w-100 bg-transparent p-2 mt-5 form-control text-white"
+            type="text"
+            placeholder="Search By First Letter"
+          />
+        </div>
+      </div>
+    </div>
+    <div id="se1" class="container">
+      <div id="search-img" class="row"></div>
+    </div>
+    <div id="se2" class="container">
+      <div id="search-img2" class="row"></div>
+    </div>
+    <div id="Categories" class="container py-3">
+      <div id="Row" class="row"></div>
+    </div>
+    <div id="Categories2" class="container py-3">
+      <div id="Row2" class="row"></div>
+    </div>
+    <div id="area" class="container py-5">
+      <div id="areaData" class="row"></div>
+    </div>
+    <div id="area-inner" class="container">
+      <div id="data8" class="row py-5"></div>
+    </div>
+    <div id="Ingredients" class="container">
+      <div id="ingradientData" class="row">
+        <div class="col-md-3"></div>
+      </div>
+    </div>
+    <div id="Contact" class="container">
+      <div class="row py-5">
+        <div class="col-md-6">
+          <input
+            id="name"
+            class="w-100 mb-2 p-2"
+            type="text"
+            placeholder="Enter Your Name"
+          />
+          <input
+            id="phone"
+            class="w-100 mb-2 p-2"
+            type="text"
+            placeholder="Enter your Phone"
+          />
+          <input
+            id="pass"
+            class="w-100 mb-2 p-2"
+            type="text"
+            placeholder="Enter your Password"
+          />
+        </div>
+        <div class="col-md-6">
+          <input
+            id="mail"
+            class="w-100 mb-2 p-2"
+            type="email"
+            placeholder="Enter Your Email"
+          />
+          <input
+            id="age"
+            class="w-100 mb-2 p-2"
+            type="Number"
+            placeholder="Enter your Age"
+          />
+          <input
+            id="repass"
+            class="w-100 mb-2 p-2"
+            type="text"
+            placeholder="Repassword"
+          />
+        </div>
+        <button
+          id="submitBtn"
+          disabled=""
+          class="btn btn-outline-danger px-2 mt-3 m-auto"
+        >
+          Submit
+        </button>
+      </div>
+    </div>
+
+    <script src="./js/code.jquery.com_jquery-3.7.1.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/Recipes .js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/search.js"></script>
+    <script src="./js/Categories.js"></script>
+    <script src="./js/Area.js"></script>
+    <script src="./js/Ingredients.js"></script>
+    <script src="./js/contant.js"></script>
+    <script src="./js/search2.js"></script>
+    <script src="./js/category2.js"></script>
+  </body>
+</html>
